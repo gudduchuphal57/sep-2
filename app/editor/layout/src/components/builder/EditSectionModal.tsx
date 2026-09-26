@@ -1335,7 +1335,7 @@ const visibleCardFieldsByCollection: Record<string, string[]> = {
 const visibleObjectFieldsByKey: Record<string, string[]> = {
   vision: ["description", "detail", "image", "imageAlt", "points"],
   imageSection: ["mainImage", "purposeCard"],
-  mainImage: ["src", "alt"],
+  // mainImage: ["src", "alt"],
   purposeCard: ["icon", "badge", "title"],
   callToAction: [
     "titlePrefix",
